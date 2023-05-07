@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1143px" preserveAspectRatio="none" style="width:1030px;height:1143px;background:#FFFFFF;" version="1.1" viewBox="0 0 1030 1143" width="1030px" zoomAndPan="magnify"><defs/><g><!--MD5=[fc539fa3f3b7db9b31467e896d367b3b]
+class Device--><g id="elem_Device"><rect codeLine="3" fill="#F1F1F1" height="382.5781" id="Device" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="495" x="395" y="7"/><ellipse cx="616.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M619.5156,18.875 Q619.6719,18.6563 619.8594,18.5469 Q620.0469,18.4375 620.2656,18.4375 Q620.6406,18.4375 620.875,18.6953 Q621.1094,18.9531 621.1094,19.5625 L621.1094,21.0156 Q621.1094,21.625 620.875,21.8906 Q620.6406,22.1563 620.2656,22.1563 Q619.9219,22.1563 619.7188,21.9531 Q619.5156,21.7656 619.4063,21.25 Q619.3594,20.8906 619.1719,20.7031 Q618.8438,20.3281 618.2344,20.1094 Q617.625,19.8906 617,19.8906 Q616.2344,19.8906 615.6016,20.2188 Q614.9688,20.5469 614.4766,21.2969 Q613.9844,22.0469 613.9844,23.0781 L613.9844,24.1719 Q613.9844,25.4063 614.875,26.2266 Q615.7656,27.0469 617.3594,27.0469 Q618.2969,27.0469 618.9531,26.7969 Q619.3438,26.6406 619.7656,26.2031 Q620.0313,25.9375 620.1797,25.8594 Q620.3281,25.7813 620.5313,25.7813 Q620.8594,25.7813 621.1172,26.0391 Q621.375,26.2969 621.375,26.6406 Q621.375,26.9844 621.0313,27.3906 Q620.5313,27.9688 619.7344,28.2969 Q618.6563,28.75 617.3594,28.75 Q615.8438,28.75 614.6406,28.125 Q613.6563,27.625 612.9688,26.5547 Q612.2813,25.4844 612.2813,24.2031 L612.2813,23.0469 Q612.2813,21.7188 612.8984,20.5703 Q613.5156,19.4219 614.6094,18.8047 Q615.7031,18.1875 616.9375,18.1875 Q617.6719,18.1875 618.3203,18.3516 Q618.9688,18.5156 619.5156,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="637.25" y="28.7285">Device</text><line style="stroke:#181818;stroke-width:0.5;" x1="396" x2="889" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="401" y="57.5332">identifier : Identifier [0..*]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="401" y="75.1426">displayName : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="362" x="401" y="92.752">definition : CodeableReference [0..1] « DeviceDefinition »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="401" y="110.3613">status : code [0..1] « FHIRDeviceStatus! »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="483" x="401" y="127.9707">availabilityStatus : CodeableConcept [0..1] « FHIRDeviceAvailabilityStatus+ »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="401" y="145.5801">manufacturer : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="401" y="163.1895">serialNumber : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="401" y="180.7988">modelNumber : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="390" x="401" y="198.4082">category : CodeableConcept [0..*] « FHIRDeviceCategory?? »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="305" x="401" y="216.0176">type : CodeableConcept [0..*] « DeviceType?? »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="413" x="401" y="233.627">mode : CodeableConcept [0..1] « FHIRDeviceOperationMode?? »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="245" x="401" y="251.2363">location : Reference [0..1] « Location »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="401" y="268.8457">url : uri [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="250" x="401" y="286.4551">endpoint : Reference [0..*] « Endpoint »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="295" x="401" y="304.0645">gateway : CodeableReference [0..*] « Device »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="324" x="401" y="321.6738">safety : CodeableConcept [0..*] « DeviceSafety?? »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="401" y="339.2832">parent : Reference [0..1] « Device »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="401" y="356.8926">...</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="401" y="374.502">alertSignal : AlertDetection [0..*]</text><line style="stroke:#181818;stroke-width:0.5;" x1="396" x2="889" y1="381.5781" y2="381.5781"/></g><!--MD5=[1ed6c3b05d8ea3be975c7b49a5fd6252]
+class DeviceMetric--><g id="elem_DeviceMetric"><rect codeLine="28" fill="#F1F1F1" height="224.0938" id="DeviceMetric" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="455" x="7" y="450"/><ellipse cx="189.75" cy="466" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M192.5156,461.875 Q192.6719,461.6563 192.8594,461.5469 Q193.0469,461.4375 193.2656,461.4375 Q193.6406,461.4375 193.875,461.6953 Q194.1094,461.9531 194.1094,462.5625 L194.1094,464.0156 Q194.1094,464.625 193.875,464.8906 Q193.6406,465.1563 193.2656,465.1563 Q192.9219,465.1563 192.7188,464.9531 Q192.5156,464.7656 192.4063,464.25 Q192.3594,463.8906 192.1719,463.7031 Q191.8438,463.3281 191.2344,463.1094 Q190.625,462.8906 190,462.8906 Q189.2344,462.8906 188.6016,463.2188 Q187.9688,463.5469 187.4766,464.2969 Q186.9844,465.0469 186.9844,466.0781 L186.9844,467.1719 Q186.9844,468.4063 187.875,469.2266 Q188.7656,470.0469 190.3594,470.0469 Q191.2969,470.0469 191.9531,469.7969 Q192.3438,469.6406 192.7656,469.2031 Q193.0313,468.9375 193.1797,468.8594 Q193.3281,468.7813 193.5313,468.7813 Q193.8594,468.7813 194.1172,469.0391 Q194.375,469.2969 194.375,469.6406 Q194.375,469.9844 194.0313,470.3906 Q193.5313,470.9688 192.7344,471.2969 Q191.6563,471.75 190.3594,471.75 Q188.8438,471.75 187.6406,471.125 Q186.6563,470.625 185.9688,469.5547 Q185.2813,468.4844 185.2813,467.2031 L185.2813,466.0469 Q185.2813,464.7188 185.8984,463.5703 Q186.5156,462.4219 187.6094,461.8047 Q188.7031,461.1875 189.9375,461.1875 Q190.6719,461.1875 191.3203,461.3516 Q191.9688,461.5156 192.5156,461.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="210.25" y="471.7285">DeviceMetric</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="461" y1="482" y2="482"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="13" y="500.5332">identifier : Identifier [0..*]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="443" x="13" y="518.1426">type : CodeableConcept [1..1] « DeviceMetricAndComponentTypes? »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="301" x="13" y="535.752">unit : CodeableConcept [0..1] « UCUMCodes? »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="13" y="553.3613">device : Reference [1..1] « Device »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="418" x="13" y="570.9707">operationalStatus : code [0..1] « DeviceMetricOperationalStatus! »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="13" y="588.5801">color : code [0..1] « ColorCodesOrRGB! »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="306" x="13" y="606.1895">category : code [1..1] « DeviceMetricCategory! »</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="255" x="13" y="623.7988">measurementFrequency : Quantity [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="13" y="641.4082">...</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="13" y="659.0176">alertSignal : AlertDetection [0..*]</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="461" y1="666.0938" y2="666.0938"/></g><!--MD5=[34ec3d7ade8384cbdc4113483c5121e6]
+class DeviceAssociation--><g id="elem_DeviceAssociation"><rect codeLine="42" fill="#F1F1F1" height="65.6094" id="DeviceAssociation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="147" x="569" y="529"/><ellipse cx="584" cy="545" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M586.7656,540.875 Q586.9219,540.6563 587.1094,540.5469 Q587.2969,540.4375 587.5156,540.4375 Q587.8906,540.4375 588.125,540.6953 Q588.3594,540.9531 588.3594,541.5625 L588.3594,543.0156 Q588.3594,543.625 588.125,543.8906 Q587.8906,544.1563 587.5156,544.1563 Q587.1719,544.1563 586.9688,543.9531 Q586.7656,543.7656 586.6563,543.25 Q586.6094,542.8906 586.4219,542.7031 Q586.0938,542.3281 585.4844,542.1094 Q584.875,541.8906 584.25,541.8906 Q583.4844,541.8906 582.8516,542.2188 Q582.2188,542.5469 581.7266,543.2969 Q581.2344,544.0469 581.2344,545.0781 L581.2344,546.1719 Q581.2344,547.4063 582.125,548.2266 Q583.0156,549.0469 584.6094,549.0469 Q585.5469,549.0469 586.2031,548.7969 Q586.5938,548.6406 587.0156,548.2031 Q587.2813,547.9375 587.4297,547.8594 Q587.5781,547.7813 587.7813,547.7813 Q588.1094,547.7813 588.3672,548.0391 Q588.625,548.2969 588.625,548.6406 Q588.625,548.9844 588.2813,549.3906 Q587.7813,549.9688 586.9844,550.2969 Q585.9063,550.75 584.6094,550.75 Q583.0938,550.75 581.8906,550.125 Q580.9063,549.625 580.2188,548.5547 Q579.5313,547.4844 579.5313,546.2031 L579.5313,545.0469 Q579.5313,543.7188 580.1484,542.5703 Q580.7656,541.4219 581.8594,540.8047 Q582.9531,540.1875 584.1875,540.1875 Q584.9219,540.1875 585.5703,540.3516 Q586.2188,540.5156 586.7656,540.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="598" y="550.7285">DeviceAssociation</text><line style="stroke:#181818;stroke-width:0.5;" x1="570" x2="715" y1="561" y2="561"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="575" y="579.5332">...</text><line style="stroke:#181818;stroke-width:0.5;" x1="570" x2="715" y1="586.6094" y2="586.6094"/></g><!--MD5=[baca88925cdc02ae2f07f4853a83cbb8]
+class DeviceAlert--><g id="elem_DeviceAlert"><rect codeLine="47" fill="#F1F1F1" height="259.3125" id="DeviceAlert" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="382" y="877"/><ellipse cx="428.25" cy="893" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M431.0156,888.875 Q431.1719,888.6563 431.3594,888.5469 Q431.5469,888.4375 431.7656,888.4375 Q432.1406,888.4375 432.375,888.6953 Q432.6094,888.9531 432.6094,889.5625 L432.6094,891.0156 Q432.6094,891.625 432.375,891.8906 Q432.1406,892.1563 431.7656,892.1563 Q431.4219,892.1563 431.2188,891.9531 Q431.0156,891.7656 430.9063,891.25 Q430.8594,890.8906 430.6719,890.7031 Q430.3438,890.3281 429.7344,890.1094 Q429.125,889.8906 428.5,889.8906 Q427.7344,889.8906 427.1016,890.2188 Q426.4688,890.5469 425.9766,891.2969 Q425.4844,892.0469 425.4844,893.0781 L425.4844,894.1719 Q425.4844,895.4063 426.375,896.2266 Q427.2656,897.0469 428.8594,897.0469 Q429.7969,897.0469 430.4531,896.7969 Q430.8438,896.6406 431.2656,896.2031 Q431.5313,895.9375 431.6797,895.8594 Q431.8281,895.7813 432.0313,895.7813 Q432.3594,895.7813 432.6172,896.0391 Q432.875,896.2969 432.875,896.6406 Q432.875,896.9844 432.5313,897.3906 Q432.0313,897.9688 431.2344,898.2969 Q430.1563,898.75 428.8594,898.75 Q427.3438,898.75 426.1406,898.125 Q425.1563,897.625 424.4688,896.5547 Q423.7813,895.4844 423.7813,894.2031 L423.7813,893.0469 Q423.7813,891.7188 424.3984,890.5703 Q425.0156,889.4219 426.1094,888.8047 Q427.2031,888.1875 428.4375,888.1875 Q429.1719,888.1875 429.8203,888.3516 Q430.4688,888.5156 431.0156,888.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="448.75" y="898.7285">DeviceAlert</text><line style="stroke:#181818;stroke-width:0.5;" x1="383" x2="554" y1="909" y2="909"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="388" y="927.5332">identifier : identifier [0..*]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="388" y="945.1426">status : code [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="388" y="962.752">code</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="388" y="980.3613">priority</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="388" y="997.9707">type</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="388" y="1015.5801">subject</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="388" y="1033.1895">conditionPeriod</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="388" y="1050.7988">conditionAbsenceReason</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="388" y="1068.4082">device</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="388" y="1086.0176">derivedFrom</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="388" y="1103.627">alarmLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="388" y="1121.2363">safetyClass</text><line style="stroke:#181818;stroke-width:0.5;" x1="383" x2="554" y1="1128.3125" y2="1128.3125"/></g><!--MD5=[a8d56b91e13a830fd574f42e4ad013ed]
+class AlertDetection--><g id="elem_AlertDetection"><rect codeLine="65" fill="#F1F1F1" height="83.2188" id="AlertDetection" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="408" y="734"/><ellipse cx="423" cy="750" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M425.7656,745.875 Q425.9219,745.6563 426.1094,745.5469 Q426.2969,745.4375 426.5156,745.4375 Q426.8906,745.4375 427.125,745.6953 Q427.3594,745.9531 427.3594,746.5625 L427.3594,748.0156 Q427.3594,748.625 427.125,748.8906 Q426.8906,749.1563 426.5156,749.1563 Q426.1719,749.1563 425.9688,748.9531 Q425.7656,748.7656 425.6563,748.25 Q425.6094,747.8906 425.4219,747.7031 Q425.0938,747.3281 424.4844,747.1094 Q423.875,746.8906 423.25,746.8906 Q422.4844,746.8906 421.8516,747.2188 Q421.2188,747.5469 420.7266,748.2969 Q420.2344,749.0469 420.2344,750.0781 L420.2344,751.1719 Q420.2344,752.4063 421.125,753.2266 Q422.0156,754.0469 423.6094,754.0469 Q424.5469,754.0469 425.2031,753.7969 Q425.5938,753.6406 426.0156,753.2031 Q426.2813,752.9375 426.4297,752.8594 Q426.5781,752.7813 426.7813,752.7813 Q427.1094,752.7813 427.3672,753.0391 Q427.625,753.2969 427.625,753.6406 Q427.625,753.9844 427.2813,754.3906 Q426.7813,754.9688 425.9844,755.2969 Q424.9063,755.75 423.6094,755.75 Q422.0938,755.75 420.8906,755.125 Q419.9063,754.625 419.2188,753.5547 Q418.5313,752.4844 418.5313,751.2031 L418.5313,750.0469 Q418.5313,748.7188 419.1484,747.5703 Q419.7656,746.4219 420.8594,745.8047 Q421.9531,745.1875 423.1875,745.1875 Q423.9219,745.1875 424.5703,745.3516 Q425.2188,745.5156 425.7656,745.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="437" y="755.7285">AlertDetection</text><line style="stroke:#181818;stroke-width:0.5;" x1="409" x2="528" y1="766" y2="766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="414" y="784.5332">code</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="414" y="802.1426">activationState</text><line style="stroke:#181818;stroke-width:0.5;" x1="409" x2="528" y1="809.2188" y2="809.2188"/></g><!--MD5=[9dd4eaa2771a2ff8dbee15cc1e732cab]
+class Patient--><g id="elem_Patient"><rect codeLine="71" fill="#F1F1F1" height="65.6094" id="Patient" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="604.5" y="742.5"/><ellipse cx="619.5" cy="758.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M622.2656,754.375 Q622.4219,754.1563 622.6094,754.0469 Q622.7969,753.9375 623.0156,753.9375 Q623.3906,753.9375 623.625,754.1953 Q623.8594,754.4531 623.8594,755.0625 L623.8594,756.5156 Q623.8594,757.125 623.625,757.3906 Q623.3906,757.6563 623.0156,757.6563 Q622.6719,757.6563 622.4688,757.4531 Q622.2656,757.2656 622.1563,756.75 Q622.1094,756.3906 621.9219,756.2031 Q621.5938,755.8281 620.9844,755.6094 Q620.375,755.3906 619.75,755.3906 Q618.9844,755.3906 618.3516,755.7188 Q617.7188,756.0469 617.2266,756.7969 Q616.7344,757.5469 616.7344,758.5781 L616.7344,759.6719 Q616.7344,760.9063 617.625,761.7266 Q618.5156,762.5469 620.1094,762.5469 Q621.0469,762.5469 621.7031,762.2969 Q622.0938,762.1406 622.5156,761.7031 Q622.7813,761.4375 622.9297,761.3594 Q623.0781,761.2813 623.2813,761.2813 Q623.6094,761.2813 623.8672,761.5391 Q624.125,761.7969 624.125,762.1406 Q624.125,762.4844 623.7813,762.8906 Q623.2813,763.4688 622.4844,763.7969 Q621.4063,764.25 620.1094,764.25 Q618.5938,764.25 617.3906,763.625 Q616.4063,763.125 615.7188,762.0547 Q615.0313,760.9844 615.0313,759.7031 L615.0313,758.5469 Q615.0313,757.2188 615.6484,756.0703 Q616.2656,754.9219 617.3594,754.3047 Q618.4531,753.6875 619.6875,753.6875 Q620.4219,753.6875 621.0703,753.8516 Q621.7188,754.0156 622.2656,754.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="633.5" y="764.2285">Patient</text><line style="stroke:#181818;stroke-width:0.5;" x1="605.5" x2="679.5" y1="774.5" y2="774.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="610.5" y="793.0332">...</text><line style="stroke:#181818;stroke-width:0.5;" x1="605.5" x2="679.5" y1="800.1094" y2="800.1094"/></g><!--MD5=[4f1f3706c1a355a8488e154afcaed5df]
+class Location--><g id="elem_Location"><rect codeLine="76" fill="#F1F1F1" height="65.6094" id="Location" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86" x="822.5" y="529"/><ellipse cx="837.5" cy="545" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M840.2656,540.875 Q840.4219,540.6563 840.6094,540.5469 Q840.7969,540.4375 841.0156,540.4375 Q841.3906,540.4375 841.625,540.6953 Q841.8594,540.9531 841.8594,541.5625 L841.8594,543.0156 Q841.8594,543.625 841.625,543.8906 Q841.3906,544.1563 841.0156,544.1563 Q840.6719,544.1563 840.4688,543.9531 Q840.2656,543.7656 840.1563,543.25 Q840.1094,542.8906 839.9219,542.7031 Q839.5938,542.3281 838.9844,542.1094 Q838.375,541.8906 837.75,541.8906 Q836.9844,541.8906 836.3516,542.2188 Q835.7188,542.5469 835.2266,543.2969 Q834.7344,544.0469 834.7344,545.0781 L834.7344,546.1719 Q834.7344,547.4063 835.625,548.2266 Q836.5156,549.0469 838.1094,549.0469 Q839.0469,549.0469 839.7031,548.7969 Q840.0938,548.6406 840.5156,548.2031 Q840.7813,547.9375 840.9297,547.8594 Q841.0781,547.7813 841.2813,547.7813 Q841.6094,547.7813 841.8672,548.0391 Q842.125,548.2969 842.125,548.6406 Q842.125,548.9844 841.7813,549.3906 Q841.2813,549.9688 840.4844,550.2969 Q839.4063,550.75 838.1094,550.75 Q836.5938,550.75 835.3906,550.125 Q834.4063,549.625 833.7188,548.5547 Q833.0313,547.4844 833.0313,546.2031 L833.0313,545.0469 Q833.0313,543.7188 833.6484,542.5703 Q834.2656,541.4219 835.3594,540.8047 Q836.4531,540.1875 837.6875,540.1875 Q838.4219,540.1875 839.0703,540.3516 Q839.7188,540.5156 840.2656,540.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="851.5" y="550.7285">Location</text><line style="stroke:#181818;stroke-width:0.5;" x1="823.5" x2="907.5" y1="561" y2="561"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="828.5" y="579.5332">...</text><line style="stroke:#181818;stroke-width:0.5;" x1="823.5" x2="907.5" y1="586.6094" y2="586.6094"/></g><!--MD5=[26df59e6d290f1279cec908f1e9a1b5f]
+class Observation--><g id="elem_Observation"><rect codeLine="81" fill="#F1F1F1" height="65.6094" id="Observation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="180" y="165.5"/><ellipse cx="195" cy="181.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M197.7656,177.375 Q197.9219,177.1563 198.1094,177.0469 Q198.2969,176.9375 198.5156,176.9375 Q198.8906,176.9375 199.125,177.1953 Q199.3594,177.4531 199.3594,178.0625 L199.3594,179.5156 Q199.3594,180.125 199.125,180.3906 Q198.8906,180.6563 198.5156,180.6563 Q198.1719,180.6563 197.9688,180.4531 Q197.7656,180.2656 197.6563,179.75 Q197.6094,179.3906 197.4219,179.2031 Q197.0938,178.8281 196.4844,178.6094 Q195.875,178.3906 195.25,178.3906 Q194.4844,178.3906 193.8516,178.7188 Q193.2188,179.0469 192.7266,179.7969 Q192.2344,180.5469 192.2344,181.5781 L192.2344,182.6719 Q192.2344,183.9063 193.125,184.7266 Q194.0156,185.5469 195.6094,185.5469 Q196.5469,185.5469 197.2031,185.2969 Q197.5938,185.1406 198.0156,184.7031 Q198.2813,184.4375 198.4297,184.3594 Q198.5781,184.2813 198.7813,184.2813 Q199.1094,184.2813 199.3672,184.5391 Q199.625,184.7969 199.625,185.1406 Q199.625,185.4844 199.2813,185.8906 Q198.7813,186.4688 197.9844,186.7969 Q196.9063,187.25 195.6094,187.25 Q194.0938,187.25 192.8906,186.625 Q191.9063,186.125 191.2188,185.0547 Q190.5313,183.9844 190.5313,182.7031 L190.5313,181.5469 Q190.5313,180.2188 191.1484,179.0703 Q191.7656,177.9219 192.8594,177.3047 Q193.9531,176.6875 195.1875,176.6875 Q195.9219,176.6875 196.5703,176.8516 Q197.2188,177.0156 197.7656,177.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="209" y="187.2285">Observation</text><line style="stroke:#181818;stroke-width:0.5;" x1="181" x2="288" y1="197.5" y2="197.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="186" y="216.0332">...</text><line style="stroke:#181818;stroke-width:0.5;" x1="181" x2="288" y1="223.1094" y2="223.1094"/></g><!--MD5=[d3fffca979c26011562cbdb08323d926]
+class limitRange--><g id="elem_limitRange"><rect codeLine="87" fill="#F1F1F1" height="83.2188" id="limitRange" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="925.5" y="157"/><ellipse cx="940.5" cy="173" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M943.2656,168.875 Q943.4219,168.6563 943.6094,168.5469 Q943.7969,168.4375 944.0156,168.4375 Q944.3906,168.4375 944.625,168.6953 Q944.8594,168.9531 944.8594,169.5625 L944.8594,171.0156 Q944.8594,171.625 944.625,171.8906 Q944.3906,172.1563 944.0156,172.1563 Q943.6719,172.1563 943.4688,171.9531 Q943.2656,171.7656 943.1563,171.25 Q943.1094,170.8906 942.9219,170.7031 Q942.5938,170.3281 941.9844,170.1094 Q941.375,169.8906 940.75,169.8906 Q939.9844,169.8906 939.3516,170.2188 Q938.7188,170.5469 938.2266,171.2969 Q937.7344,172.0469 937.7344,173.0781 L937.7344,174.1719 Q937.7344,175.4063 938.625,176.2266 Q939.5156,177.0469 941.1094,177.0469 Q942.0469,177.0469 942.7031,176.7969 Q943.0938,176.6406 943.5156,176.2031 Q943.7813,175.9375 943.9297,175.8594 Q944.0781,175.7813 944.2813,175.7813 Q944.6094,175.7813 944.8672,176.0391 Q945.125,176.2969 945.125,176.6406 Q945.125,176.9844 944.7813,177.3906 Q944.2813,177.9688 943.4844,178.2969 Q942.4063,178.75 941.1094,178.75 Q939.5938,178.75 938.3906,178.125 Q937.4063,177.625 936.7188,176.5547 Q936.0313,175.4844 936.0313,174.2031 L936.0313,173.0469 Q936.0313,171.7188 936.6484,170.5703 Q937.2656,169.4219 938.3594,168.8047 Q939.4531,168.1875 940.6875,168.1875 Q941.4219,168.1875 942.0703,168.3516 Q942.7188,168.5156 943.2656,168.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="954.5" y="178.7285">limitRange</text><line style="stroke:#181818;stroke-width:0.5;" x1="926.5" x2="1022.5" y1="189" y2="189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="931.5" y="207.5332">low</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="931.5" y="225.1426">high</text><line style="stroke:#181818;stroke-width:0.5;" x1="926.5" x2="1022.5" y1="232.2188" y2="232.2188"/></g><!--MD5=[4fc224f47e872ad6b40387f864a95a07]
+link Device to DeviceAlert--><g id="link_Device_DeviceAlert"><path codeLine="94" d="M719.4,390.13 C725.14,410.09 730.03,430.29 733.5,450 C750.76,548.05 745.42,575.16 733.5,674 C725.67,738.96 733.37,761.64 698.5,817 C662.8,873.68 604.2,921.33 555.09,954.54 " fill="none" id="Device-DeviceAlert" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e203932bc926f2bd093d7e401ddfe7c0]
+link Device to DeviceMetric--><g id="link_Device_DeviceMetric"><path codeLine="95" d="M427.45,390.04 C404.34,410.52 381.42,430.82 359.88,449.91 " fill="none" id="Device-DeviceMetric" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9b269907b1c55791ab7c9abfeb3aa05b]
+link DeviceMetric to DeviceAlert--><g id="link_DeviceMetric_DeviceAlert"><path codeLine="96" d="M293.25,674.09 C325.81,735.66 366.45,812.51 400.39,876.7 " fill="none" id="DeviceMetric-DeviceAlert" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[39a089b69669808085d06538ef35f19f]
+link AlertDetection to DeviceAlert--><g id="link_AlertDetection_DeviceAlert"><path codeLine="97" d="M468.5,817.18 C468.5,832.94 468.5,851.95 468.5,871.75 " fill="none" id="AlertDetection-to-DeviceAlert" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="468.5,876.8,472.5,867.8,468.5,871.8,464.5,867.8,468.5,876.8" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8609cf599adfb298e7cc25a56d1f8c54]
+reverse link Device to AlertDetection--><g id="link_Device_AlertDetection"><path codeLine="98" d="M566.69,403.02 C561.37,418.86 556.24,434.65 551.5,450 C520.32,550.99 491.58,672.14 477.53,733.93 " fill="none" id="Device-backto-AlertDetection" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="571,390.32,565.2864,394.7194,567.1499,401.6856,572.8635,397.2862,571,390.32" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ffaf0f9610051efc7463655a90bb4e79]
+reverse link DeviceMetric to AlertDetection--><g id="link_DeviceMetric_AlertDetection"><path codeLine="99" d="M367.03,682.78 C387.37,701.17 407.07,718.98 423.62,733.94 " fill="none" id="DeviceMetric-backto-AlertDetection" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="357.33,674.01,359.0996,681.0006,366.2331,682.0558,364.4635,675.0652,357.33,674.01" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0eb0b1636bb71be693d8c4f1c22a136a]
+link Device to Location--><g id="link_Device_Location"><path codeLine="100" d="M760.04,390.04 C791.84,441.59 822.98,492.07 843.08,524.66 " fill="none" id="Device-to-Location" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="845.72,528.93,844.3952,519.1707,843.0931,524.6756,837.5882,523.3736,845.72,528.93" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c17a7d5459043b272b104d0490f51160]
+link Device to DeviceAssociation--><g id="link_Device_DeviceAssociation"><path codeLine="101" d="M642.5,390.04 C642.5,441.17 642.5,491.25 642.5,523.85 " fill="none" id="Device-to-DeviceAssociation" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="642.5,528.93,646.5,519.93,642.5,523.93,638.5,519.93,642.5,528.93" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cb43a191d3fd11f2d1ade239adc7cfc0]
+link DeviceAssociation to Patient--><g id="link_DeviceAssociation_Patient"><path codeLine="102" d="M642.5,595.12 C642.5,633.28 642.5,696.82 642.5,737.14 " fill="none" id="DeviceAssociation-to-Patient" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="642.5,742.42,646.5,733.42,642.5,737.42,638.5,733.42,642.5,742.42" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[719f96e6e6ee08e6ca0d34034a9c2e04]
+link Observation to DeviceMetric--><g id="link_Observation_DeviceMetric"><path codeLine="103" d="M234.5,231.58 C234.5,279 234.5,370.22 234.5,444.66 " fill="none" id="Observation-to-DeviceMetric" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="234.5,449.99,238.5,440.99,234.5,444.99,230.5,440.99,234.5,449.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[93151e0e10ad414f17ad79bc31c6bf7b]
+@startuml
+
+ 
+class Device
+{
+    identifier : Identifier [0..*]
+    displayName : string [0..1]
+    definition : CodeableReference [0..1] « DeviceDefinition »
+    status : code [0..1] « FHIRDeviceStatus! »
+    availabilityStatus : CodeableConcept [0..1] « FHIRDeviceAvailabilityStatus+ »
+    manufacturer : string [0..1]
+    serialNumber : string [0..1]
+    modelNumber : string [0..1]
+    category : CodeableConcept [0..*] « FHIRDeviceCategory?? »
+    type : CodeableConcept [0..*] « DeviceType?? »
+    mode : CodeableConcept [0..1] « FHIRDeviceOperationMode?? »
+    location : Reference [0..1] « Location »
+    url : uri [0..1]
+    endpoint : Reference [0..*] « Endpoint »
+    gateway : CodeableReference [0..*] « Device »
+    safety : CodeableConcept [0..*] « DeviceSafety?? »
+    parent : Reference [0..1] « Device »
+    ...
+    alertSignal : AlertDetection [0..*]
+}
+
+ 
+
+class DeviceMetric
+{
+    identifier : Identifier [0..*]
+    type : CodeableConcept [1..1] « DeviceMetricAndComponentTypes? »
+    unit : CodeableConcept [0..1] « UCUMCodes? »
+    device : Reference [1..1] « Device »
+    operationalStatus : code [0..1] « DeviceMetricOperationalStatus! »
+    color : code [0..1] « ColorCodesOrRGB! »
+    category : code [1..1] « DeviceMetricCategory! »
+    measurementFrequency : Quantity [0..1]
+    ...
+    alertSignal : AlertDetection [0..*]
+}
+ 
+class DeviceAssociation
+{
+    ...
+}
+
+class DeviceAlert
+{
+    identifier : identifier [0..*]
+    status : code [0..1]
+    code
+    priority
+    type
+    subject
+    conditionPeriod
+    conditionAbsenceReason
+    device
+    derivedFrom
+    alarmLabel
+    safetyClass
+}
+
+ 
+
+class AlertDetection
+{
+    code
+    activationState
+}
+
+ class Patient 
+{
+    ...
+}
+
+class Location
+{
+    ...
+}
+
+class Observation
+{
+    ...
+}
+
+
+class limitRange
+{
+    low
+    high
+}
+
+' Class Relationships 
+Device - - DeviceAlert 
+Device - - DeviceMetric
+DeviceMetric - - DeviceAlert
+AlertDetection - -> DeviceAlert
+Device *.. AlertDetection
+DeviceMetric *.. AlertDetection 
+Device - -> Location
+Device - -> DeviceAssociation
+DeviceAssociation - -> Patient
+Observation - -> DeviceMetric
+
+@enduml
+
+@startuml
+
+ 
+class Device
+{
+    identifier : Identifier [0..*]
+    displayName : string [0..1]
+    definition : CodeableReference [0..1] « DeviceDefinition »
+    status : code [0..1] « FHIRDeviceStatus! »
+    availabilityStatus : CodeableConcept [0..1] « FHIRDeviceAvailabilityStatus+ »
+    manufacturer : string [0..1]
+    serialNumber : string [0..1]
+    modelNumber : string [0..1]
+    category : CodeableConcept [0..*] « FHIRDeviceCategory?? »
+    type : CodeableConcept [0..*] « DeviceType?? »
+    mode : CodeableConcept [0..1] « FHIRDeviceOperationMode?? »
+    location : Reference [0..1] « Location »
+    url : uri [0..1]
+    endpoint : Reference [0..*] « Endpoint »
+    gateway : CodeableReference [0..*] « Device »
+    safety : CodeableConcept [0..*] « DeviceSafety?? »
+    parent : Reference [0..1] « Device »
+    ...
+    alertSignal : AlertDetection [0..*]
+}
+
+ 
+
+class DeviceMetric
+{
+    identifier : Identifier [0..*]
+    type : CodeableConcept [1..1] « DeviceMetricAndComponentTypes? »
+    unit : CodeableConcept [0..1] « UCUMCodes? »
+    device : Reference [1..1] « Device »
+    operationalStatus : code [0..1] « DeviceMetricOperationalStatus! »
+    color : code [0..1] « ColorCodesOrRGB! »
+    category : code [1..1] « DeviceMetricCategory! »
+    measurementFrequency : Quantity [0..1]
+    ...
+    alertSignal : AlertDetection [0..*]
+}
+ 
+class DeviceAssociation
+{
+    ...
+}
+
+class DeviceAlert
+{
+    identifier : identifier [0..*]
+    status : code [0..1]
+    code
+    priority
+    type
+    subject
+    conditionPeriod
+    conditionAbsenceReason
+    device
+    derivedFrom
+    alarmLabel
+    safetyClass
+}
+
+ 
+
+class AlertDetection
+{
+    code
+    activationState
+}
+
+ class Patient 
+{
+    ...
+}
+
+class Location
+{
+    ...
+}
+
+class Observation
+{
+    ...
+}
+
+
+class limitRange
+{
+    low
+    high
+}
+
+Device - - DeviceAlert 
+Device - - DeviceMetric
+DeviceMetric - - DeviceAlert
+AlertDetection - -> DeviceAlert
+Device *.. AlertDetection
+DeviceMetric *.. AlertDetection 
+Device - -> Location
+Device - -> DeviceAssociation
+DeviceAssociation - -> Patient
+Observation - -> DeviceMetric
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 CDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
