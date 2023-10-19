@@ -1,0 +1,34 @@
+@startuml
+
+object DeviceAlert #orange {
+    (future resource)
+}
+object Device #lightblue
+object DeviceMetric #lightblue
+object alertDetection #yellow {
+    (future Device / DeviceMetric extension)
+}
+object alertSignal #yellow {
+    (future Device backbone element)
+}
+object Patient #lightblue
+object Location #lightblue
+object DeviceAssociation #lightblue
+object Observation #lightblue
+object Practitioner_or_PractitionerRole #lightblue
+
+Device --> Location : .location
+Device *-- alertDetection
+Device *-- alertSignal
+DeviceMetric *-- alertDetection
+DeviceAlert --> DeviceMetric : .device
+DeviceAlert --> Device : .device
+DeviceAlert --> Patient : .subject
+DeviceAlert --> Device : .subject
+DeviceAlert --> Practitioner_or_PractitionerRole : .acknowledger
+DeviceAlert --> Observation : .derivedFrom
+DeviceMetric --> Device : .device
+DeviceAssociation --> Patient : .subject
+DeviceAssociation --> Device : .device
+
+@enduml
