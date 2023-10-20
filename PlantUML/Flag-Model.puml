@@ -1,0 +1,107 @@
+@startuml
+
+
+class Device
+{
+identifier : Identifier [0..*]
+displayName : string [0..1]
+definition : CodeableReference [0..1] « DeviceDefinition »
+status : code [0..1] « FHIRDeviceStatus! »
+availabilityStatus : CodeableConcept [0..1] « FHIRDeviceAvailabilityStatus+ »
+manufacturer : string [0..1]
+serialNumber : string [0..1]
+modelNumber : string [0..1]
+category : CodeableConcept [0..*] « FHIRDeviceCategory?? »
+type : CodeableConcept [0..*] « DeviceType?? »
+mode : CodeableConcept [0..1] « FHIRDeviceOperationMode?? »
+location : Reference [0..1] « Location »
+url : uri [0..1]
+endpoint : Reference [0..*] « Endpoint »
+gateway : CodeableReference [0..*] « Device »
+safety : CodeableConcept [0..*] « DeviceSafety?? »
+parent : Reference [0..1] « Device »
+...
+alertSignal : AlertDetection [0..*]
+}
+
+class Flag
+{
+identifier : Identifier [0..*]
+status : code [1..1]
+category : CodeableConcept [0..*]
+code : CodeableConcept [1..1]
+subject : Reference [1..1]
+period : Period [0..1]
+encounter : Reference( Encounter ) [0..1]
+author : Reference( Device ) [0..1]
+}
+
+class DeviceMetric
+{
+dentifier : Identifier [0..*]
+type : CodeableConcept [1..1] « DeviceMetricAndComponentTypes? »
+unit : CodeableConcept [0..1] « UCUMCodes? »
+device : Reference [1..1] « Device »
+operationalStatus : code [0..1] « DeviceMetricOperationalStatus! »
+color : code [0..1] « ColorCodesOrRGB! »
+category : code [1..1] « DeviceMetricCategory! »
+measurementFrequency : Quantity [0..1]
+...
+alertSignal : AlertDetection [0..*]
+}
+
+/'
+class DeviceAlert
+{
+identifier : identifier [0..*]
+status : code [0..1]
+code
+priority
+type
+subject
+conditionPeriod
+conditionAbsenceReason
+device
+derivedFrom
+alarmLabel
+safetyClass
+}
+'/
+
+
+class AlertDetection
+{
+    code
+    activationState
+}
+
+ class Patient
+{
+    ...
+}
+
+class Location
+{
+    ...
+}
+
+class Observation
+{
+    ...
+}
+
+
+class limitRange
+{
+    low
+    high
+}
+
+Device <-- Flag : author
+Flag --> Patient : subject
+Device -- DeviceMetric
+Device *.. AlertDetection
+DeviceMetric *.. AlertDetection
+
+
+@enduml
