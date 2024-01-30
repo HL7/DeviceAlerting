@@ -1,4 +1,5 @@
-output/*
-fsh-generated/*
-temp/*
-template/*
+fsh-generated/**
+input-cache/**
+output/**
+temp/**
+template/**
