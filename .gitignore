@@ -1,0 +1,4 @@
+output/*
+fsh-generated/*
+temp/*
+template/*
