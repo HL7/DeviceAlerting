@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="dev" url="http://hl7.org/fhir/uv/device-alerting">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="StructureDefinition/device-physiological-alert" key="StructureDefinition-device-physiological-alert" name="Device Physiological Alert"/>
+<artifact id="StructureDefinition/device-technical-alert" key="StructureDefinition-device-technical-alert" name="Device Technical Alert"/>
+<artifact id="Device/ExampleMdsDevice" key="Device-ExampleMdsDevice" name="Example MDS Device"/>
+<artifact id="Patient/ExamplePatient" key="Patient-ExamplePatient" name="Example Patient"/>
+<artifact id="DeviceMetric/ExampleRespRateMetric" key="DeviceMetric-ExampleRespRateMetric" name="Example Respiration Rate Metric"/>
+<artifact id="Observation/ExampleRespRateObservation" key="Observation-ExampleRespRateObservation" name="Example Respiration Rate Observation"/>
+<artifact id="DeviceAlert/PhysiologicalAlertExample" key="DeviceAlert-PhysiologicalAlertExample" name="Physiological Alert Example - Apnea"/>
+<artifact id="DeviceAlert/TechnicalAlertExample" key="DeviceAlert-TechnicalAlertExample" name="Technical Alert Example - Low Battery"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="index" name="Home"/>
+<page key="profiles" name="Profiles"/>
+<page key="toc" name="Table of Contents"/>
+<page key="terminology" name="Terminology"/>
+</specification>

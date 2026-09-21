@@ -3,22 +3,31 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.uv.deval
-canonical: http://hl7.org/fhir/uv/deval
+id: hl7.fhir.uv.device-alerting
+canonical: http://hl7.org/fhir/uv/device-alerting
 name: DeviceAlerting
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: Device Alerting Implementation Guide
+description: Implementation Guide for the exchange of device alert information, covering alert conditions and alert signals, based on the FHIR DeviceAlert resource.
 status: draft # draft | active | retired | unknown
+experimental: false
 version: 0.1.0
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 6.0.0-ballot5
 copyrightYear: 2024+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
 publisher:
-  name: HL7 International / Healthcare Devices
+  name: HL7 International / Devices
   url: http://www.hl7.org/Special/committees/healthcaredevices
   email: devicesonfhir@lists.HL7.org
+
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: dev
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: draft
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 0
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
@@ -75,6 +84,8 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Profiles: profiles.html
+  Terminology: terminology.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
