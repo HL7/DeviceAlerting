@@ -15,9 +15,14 @@ its translation to other paradigms. Its scope covers:
   in line with the standards this guide references;
 * bridging between FHIR and other paradigms, such as the IHE Alert Communication
   Management (ACM) profile;
-* both acute / in-hospital and home / out-of-hospital settings.
+* both acute / in-hospital and home / out-of-hospital settings; and
+* dissemination of alert information in line with ISO/IEC 60601-1-8.
 
 This guide is **not** intended for real-time notification or clinical workflows.
+
+Bridging is specified in one direction only: mapping alert information from the IHE
+Alert Communication Management (ACM) profile into FHIR is in scope, while mapping
+FHIR content back to HL7 v2-based ACM messages is out of scope.
 
 ### Relationship to other guides
 

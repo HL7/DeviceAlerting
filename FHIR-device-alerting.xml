@@ -5,13 +5,21 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/device-physiological-alert" key="StructureDefinition-device-physiological-alert" name="Device Physiological Alert"/>
+<artifact id="StructureDefinition/device-physiological-limit-alert" key="StructureDefinition-device-physiological-limit-alert" name="Device Physiological Limit Alert"/>
 <artifact id="StructureDefinition/device-technical-alert" key="StructureDefinition-device-technical-alert" name="Device Technical Alert"/>
+<artifact id="StructureDefinition/device-technical-limit-alert" key="StructureDefinition-device-technical-limit-alert" name="Device Technical Limit Alert"/>
+<artifact id="Observation/ExampleBatteryChargeObservation" key="Observation-ExampleBatteryChargeObservation" name="Example Battery Charge Observation"/>
+<artifact id="Device/ExampleChannelDevice" key="Device-ExampleChannelDevice" name="Example Channel Device"/>
 <artifact id="Device/ExampleMdsDevice" key="Device-ExampleMdsDevice" name="Example MDS Device"/>
 <artifact id="Patient/ExamplePatient" key="Patient-ExamplePatient" name="Example Patient"/>
 <artifact id="DeviceMetric/ExampleRespRateMetric" key="DeviceMetric-ExampleRespRateMetric" name="Example Respiration Rate Metric"/>
 <artifact id="Observation/ExampleRespRateObservation" key="Observation-ExampleRespRateObservation" name="Example Respiration Rate Observation"/>
+<artifact id="Observation/ExampleRespRateHighObservation" key="Observation-ExampleRespRateHighObservation" name="Example Respiration Rate Observation Above Limit"/>
+<artifact id="Device/ExampleVmdDevice" key="Device-ExampleVmdDevice" name="Example VMD Device"/>
 <artifact id="DeviceAlert/PhysiologicalAlertExample" key="DeviceAlert-PhysiologicalAlertExample" name="Physiological Alert Example - Apnea"/>
-<artifact id="DeviceAlert/TechnicalAlertExample" key="DeviceAlert-TechnicalAlertExample" name="Technical Alert Example - Low Battery"/>
+<artifact id="DeviceAlert/PhysiologicalLimitAlertExample" key="DeviceAlert-PhysiologicalLimitAlertExample" name="Physiological Alert Example - Respiration Rate Above High Limit"/>
+<artifact id="DeviceAlert/TechnicalAlertExample" key="DeviceAlert-TechnicalAlertExample" name="Technical Alert Example - Communication Lost"/>
+<artifact id="DeviceAlert/TechnicalLimitAlertExample" key="DeviceAlert-TechnicalLimitAlertExample" name="Technical Limit Alert Example - Battery Charge Below Low Limit"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
