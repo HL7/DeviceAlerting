@@ -6,3 +6,4 @@ Description: "A DeviceAlert representing a technical alert condition, where the 
 * subject only Reference(Device)
 * device 1..1
 * device only Reference(Device)
+* insert DeviceAlertMustSupport

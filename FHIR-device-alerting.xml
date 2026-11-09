@@ -4,6 +4,8 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="DeviceAlert/AdvisoryAlertExample" key="DeviceAlert-AdvisoryAlertExample" name="Advisory Alert Example - Replace Battery"/>
+<artifact id="StructureDefinition/device-advisory-alert" key="StructureDefinition-device-advisory-alert" name="Device Advisory Alert"/>
 <artifact id="StructureDefinition/device-physiological-alert" key="StructureDefinition-device-physiological-alert" name="Device Physiological Alert"/>
 <artifact id="StructureDefinition/device-physiological-limit-alert" key="StructureDefinition-device-physiological-limit-alert" name="Device Physiological Limit Alert"/>
 <artifact id="StructureDefinition/device-technical-alert" key="StructureDefinition-device-technical-alert" name="Device Technical Alert"/>

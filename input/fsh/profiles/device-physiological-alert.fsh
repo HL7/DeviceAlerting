@@ -7,3 +7,4 @@ Description: "A DeviceAlert representing a physiological alert condition, where 
 * device 1..1
 * device only Reference(DeviceMetric)
 * derivedFrom 1..*
+* insert DeviceAlertMustSupport

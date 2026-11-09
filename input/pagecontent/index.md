@@ -12,11 +12,11 @@ its translation to other paradigms. Its scope covers:
 
 * representation of device-sourced alerts, including alarms and advisories;
 * requirements on the use of the DeviceAlert resource that are too detailed for FHIR core,
-  in line with the standards this guide references;
+  in line with the standards this guide references
 * bridging between FHIR and other paradigms, such as the IHE Alert Communication
-  Management (ACM) profile;
-* both acute / in-hospital and home / out-of-hospital settings; and
-* dissemination of alert information in line with ISO/IEC 60601-1-8.
+  Management (ACM) profile
+* both acute / in-hospital and home / out-of-hospital settings
+* dissemination of alert information in line with ISO/IEC 60601-1-8
 
 This guide is **not** intended for real-time notification or clinical workflows.
 
