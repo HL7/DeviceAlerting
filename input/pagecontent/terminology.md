@@ -2,7 +2,7 @@ This page describes the code systems and value sets used by the profiles in this
 
 *(Draft. Terminology decisions for this guide are still open in the work group.)*
 
-### Code Systems
+### CodeSystems
 
 The examples in this guide use the following code systems:
 
@@ -26,5 +26,3 @@ The table below lists such pairs per scenario. **It is illustrative and not norm
 | Battery charge below low limit | technical | `69721` MDC_DEV_ANALY_RESP_RATE_MDS (Device) | `196802` MDC_EVT_BATT_LO | `67996` MDC_ATTR_VAL_BATT_CHARGE | [Battery low](DeviceAlert-TechnicalLimitAlertExample.html) |
 | Battery needs replacement | advisory | `69721` MDC_DEV_ANALY_RESP_RATE_MDS (Device) | `203286` MDC_EVT_ADVIS_BATT_REPLACE | – | [Replace battery](DeviceAlert-AdvisoryAlertExample.html) |
 {:.grid}
-
-All codes are from ISO/IEEE 11073-10101 (`urn:iso:std:iso:11073:10101`).
